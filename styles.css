@@ -1,6 +1,21 @@
+/*All the elements are selected on the page*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+  }
+.container {
+    min-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: lightblue;
+  }
+.h1 {
+    font-size: 10rem;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 1em;
   }
