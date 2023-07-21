@@ -38,3 +38,14 @@ button {
     font-weight: bolder;
     transition: all 0.3s ease-in-out;
   }
+.block {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 1250px;
+    height: 125px;
+    font-size: 5rem;
+    font-weight: bold;
+    border: 3px solid black;
+    transition: background 0.3s ease-in-out;
+  }
