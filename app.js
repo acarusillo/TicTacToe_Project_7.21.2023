@@ -4,6 +4,7 @@ let board = [
     ['', '', ''],
   ];
   
+  
   let currentPlayer = 'X';
   
   function makeMove(row, col) {
