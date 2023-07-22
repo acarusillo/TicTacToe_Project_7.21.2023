@@ -4,7 +4,7 @@ let board = [
     ['', '', ''],
   ];
   
-  
+
   let currentPlayer = 'X';
   
   function makeMove(row, col) {
@@ -40,6 +40,7 @@ let board = [
     }
     return false;
   }
+  
   
   function checkDraw() {
     for (let row = 0; row < 3; row++) {
